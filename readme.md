@@ -7,7 +7,7 @@
 La *Web agency* **"Orély"** vous a trouvé votre première mission à la ***Mairie du Havre***.  
 Vous travaillez donc avec le redacteur en chef de la Mairie et vous devez l'aider à intégrer des élements sur la première page du site : **Il s'agit d'un recapitulatif des actualités de la ville du Havre**.  
 
-![Actus](img/actus.png "Actus")  
+![Actus](img/actus.PNG "Actus")  
 
 ## Structure du dossier
 Le dossier de ce test sera composé de cette manière :
