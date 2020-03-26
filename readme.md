@@ -24,17 +24,17 @@ Le dossier de ce test sera composé de cette manière :
 * Un code **propre** avec une belle **indentation** pour plus de lisibilité.
 * Utilisation d'un color picker pour les couleurs : ex. **Colorpick eyedropper** sous Chrome.
 * Utilisation des unités suivantes :
-    * **rem** : *padding, margin, text ...*
-    * **vh, vw** : *%, px ...* 
+    * **rem** : *padding, margin, text ...*  
+    * **vh, vw** : *%, px ...*  
+    
 * Utilisation de balise ```<img>``` et non de l'attribut ```background-image```
 * Utilisation de "CSS GRID" : *Tutos sympas pour bien démarrrer*
     * https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout
     * https://www.w3schools.com/css/css_grid.asp
     * https://css-tricks.com/snippets/css/complete-guide-grid/
+* Partir d'une GRID de **12 colonnes** et de **2 rangées**.  
 
-* Partir d'une GRID de **12 colonnes** et de **2 rangées**. 
-
-![grid](img/grid2.PNG "grid") 
+![grid](img/grid2.PNG "grid")  
 
 ## A VOUS DE CODER !!
 > L'agence **Orély** compte sur vous et promis, on vous embauche !
