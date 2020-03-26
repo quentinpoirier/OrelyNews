@@ -22,7 +22,6 @@ Le dossier de ce test sera composé de cette manière :
 * Les images principales se trouves dans le dossier du TP **img**.
 * Utilisation de l'anglais lors de la création de vos **class** et de vos **id**.
 * Un code **propre** avec une belle **indentation** pour plus de lisibilité.
-* Utilisation de https://www.fontsquirrel.com/matcherator pour déterminer les polices d'écriture.
 * Utilisation d'un color picker pour les couleurs : ex. **Colorpick eyedropper** sous Chrome.
 
 ## A VOUS DE CODER !!
