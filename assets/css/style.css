@@ -1,113 +1,164 @@
-.container 
-  {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(2, auto);
-  }
-  .firstbox
-  {
-      grid-column: 4 / 10;
-      grid-row: 1 / 1;
-      margin: 2rem;
-  }
-  #LeHavre
-  {
-      width: 100%;
-  }
-  
-  .secondbox
-  {
-      grid-column: 4 / 6;
-      grid-row-start: 2;
-      margin: 3rem;
-  }
-  #Chirac
-  {
-      width: 100%;
-  }
-  .thirdbox
-  {
-      grid-column: 6 / 8;
-      grid-row-start: 2;
-      margin: 3rem;
-  }
-  #docks
-  {
-      width: 100%;
-  }
-  .fourthbox
-  {
-      grid-column: 8 / 10;
-      grid-row-start: 2;
-      margin: 3rem;
-  }
-  #road
-  {
-      width: 100%;
-  }
+hr {
+    color: #d7d7d7;
+}
 
-  h1
-  {
-      color: #1c93ee;
-      font-style: normal;
-      width: 100%;
-      font-family: 'roboto' , sans-serif;
-      font-size: 3rem;
-      text-transform: uppercase;
-  }
- 
-  .subtitle
-  {
-      text-transform: uppercase;
-      font-size: 4rem;
-      font-family: 'lato' , sans-serif;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      line-height: 4rem;
-  }
-  .sum
-  {
-      text-transform: uppercase;
-      font-size: 2rem;
-      font-family: 'lato' , sans-serif;
-      line-height: 2rem;
-  }
-  .boldtext
-  {
-      font-size: 2rem;
-      font-weight: bold;
-      font-family: 'verdana' , sans-serif;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      line-height: 2rem;
-  }
- 
-  .colortitle
-  {
-      background-color: #c12051;
-      text-transform: uppercase;
-      font-size: 2rem;
-      color: white;
-      font-family: 'roboto' , sans-serif;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      line-height: 2rem;
-  }
-  .text
-  {
-      font-size: 2rem;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
-      line-height: 2rem;
+.container {
+    display: grid;
+    /* J'indique que ma classe est une grid via le display */
+    grid-template-columns: repeat(12, 8vw);
+    /* Ma grille sera composée de 12 Colonnes via la fonction repeat() avec une largeur de 8vh par colonnes*/
+    grid-template-rows: auto auto;
+    /*2 Lignes avec une hauteur auto*/
+    gap: 1rem 1rem;
+    /* Gap entre rows, Gap entre columns*/
+}
 
-  }
-  .content
-  {
-      margin-top: 5rem;
-      margin-bottom: 5rem;
-  }
-  p
-  {
-      margin-top: 0.2rem;
-      margin-bottom: 0.2rem;
-  }
+/* Mise en place d'une div permettant positionner le texte via la position relative */
+.img-highlight {
+    position: relative;
+    text-align: center;
+}
+
+/* Classe permettant de rendre l'image reponsive */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.category {
+    color: #1e94ee;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.outline {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin: 0.5rem 0 0 0;
+    /* Pour controler l'espace entre les paragraphes */
+}
+
+.date {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////
+header css
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
+
+.header {
+    grid-column: 4 / span 6;
+    grid-row: 1;
+    text-align: center;
+    /* Pour centrer la photo*/
+}
+
+/*//////////////////////////////////////////////////////////////////////////////
+top news css
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
+
+.topnews {
+    grid-column: 4 / span 2;
+    grid-row: 2;
+    text-align: left;
+}
+
+.topnews .news .sub-category {
+    background-color: #1c93ee;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+/* On positionne le titre sur l'image via une position absolute */
+.topnews .img-highlight .sub-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1c93ee;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.7rem;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////
+donotmiss css
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
+
+.donotmiss {
+    grid-column: 6 / span 2;
+    grid-row: 2;
+}
+
+.donotmiss .news .sub-category {
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+.donotmiss .img-highlight .sub-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.7rem;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////
+mostviewed css
+////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////// */
+
+.mostviewed {
+    grid-column: 8 / span 2;
+    grid-row: 2;
+}
+
+.mostviewed .news .sub-category {
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+}
+
+.mostviewed .img-highlight .sub-category {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #c12051;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.7rem;
+}

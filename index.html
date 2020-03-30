@@ -1,106 +1,141 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ville du Havre</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap">
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="firstbox">
-            <a href="assets/img/leHavre.jpg"><img src="assets/img/leHavre.jpg" alt="photo du Havre" title="photo du Havre" id="LeHavre"></a>
+
+        <div class="header">
+            <img class="img-responsive" src="assets\img\leHavre.jpg" alt="La ville Du Havre">
         </div>
-        <div class="secondbox">
-            <div class="content">
-                <h1>EN CE MOMENT</h1>
-                <a href="assets/img/img01.jpg"><img src="assets/img/img01.jpg" alt="photo de Chirac" title="photo de Chirac" id="Chirac"></a>
-                <p class="colortitle">Cérémonie</p><br>
-                <p class="subtitle">UNE MINUTE DE SILENCE EN HOMMAGE AU PRESSIDENT DE LA RÉPUBLIQUE JACQUES CHIRAC</p>
+
+        <div class="topnews">
+            <p class="category">En ce moment</p>
+            <div class="highlight">
+                <div class="img-highlight">
+                    <img class="img-responsive" src="assets\img\img01.jpg" alt="Chirac">
+                    <p><span class="sub-category">Cérémonie</span></p>
+                </div>
+                <p class="title">Une minute de silence en hommage au président de la république jacques chirac</p>
             </div>
-            <div class="content">
-                <p class="colortitle" class="colortitle">INNOVATION/PORT/RECOMPENSE</p><br>
-                <p class="sum">Le Havre smart city lauréat de l'appel à projets "territoires d'innovation" lancé par l'etat</p><br>
-                <p class="boldtext">Un succés collectif pour le havre smart port city retenue dans le 3e programme des investissements d'avenir</p><br>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">innovation / port / récompense</span></p>
+                <p class="title">Le havre smart port city lauréat de l'appel à projets "territoires d'innovation" lancé
+                    par l'état</p>
+                <p class="outline">Un succés collectif pour Le Havre Smart Port City retenu dans le 3e Programme des
+                    Investissements
+                    d'avenir</p>
             </div>
-            <div class="content">
-                <p class="colortitle">Éducation</p><br>
-                <p class="sum">Le Havre labellisée "cité éducative"</p><br>
-                <p class="boldtext">Le Havre parmis les 80 territoires labellisés par le gouvernement</p><br>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">education</span></p>
+                <p class="title">Le Havre labellisée "cité éducative"</p>
+                <p class="outline">Le Havre parmi les 80 territoires labellisés par le gouvernement</p>
             </div>
-            <div class="content">
-                <p class="colortitle">Un été au havre</p><br>
-                <p class="sum">Joué dehors</p><br>
-                <p class="boldtext">Un été au havre à vivre à partir du 29 juin</p><br>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Un été au Havre</span></p>
+                <p class="title">Jouer dehors</p>
+                <p class="outline">Un été Au Havre à vivre à partir du 29 juin</p>
             </div>
-            <div class="content">
-                <p class="colortitle">culture</p><br>
-                <p class="sum">Le Havre, l'art fait le mur</p><br>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Culture</span></p>
+                <p class="title">Au Havre, l'art fait le mur</p>
             </div>
-            <div class="content">
-                <p class="colortitle">Cérémonie/international/tourisme</p><br>
-                <p class="sum">Il y a 75ans: la libération du Havre</p><br>
-            </div>
-        </div>
-        
-        <div class="thirdbox">
-            <div class="content">
-                <h1>A NE PAS MANQUER</h1>
-                <a href="assets/img/img02.jpg"><img src="assets/img/img02.jpg" alt="photo carré des docks" title="photo carré des docks" id="docks"></a>
-                <p class="colortitle">Sport</p><br>
-                <p class="subtitle">Le Havre en forme au carré des docks</p><br>
-                <p class="boldtext">Un après-midi pour s'adonner à des activités physiques et découvrir un lieu culturel atypique</p><br>
-                <p class="text">Le 5 octobre 2019 à partir de 14:00 Carré des docks - Le havre normandie</p>
-            </div>
-            <div class="content">
-                <p class="colortitle">Réunion</p><br>
-                <p class="sum">Les dys' en question: dyspraxie, dyslexie, dysorthographie...</p><br>
-                <p class="boldtext">Les cafés de la santé</p><br>
-                <p class="text">Le 1er octobre 2019 à 09:00 la fabrique Pierre Hamet, centre social</p><br>
-            </div>
-            <div class="content">
-                <p class="colortitle">Conseil de quartier</p><br>
-                <p class="sum">Le 1er octobre 2019 à 18:30 salle des fêtes Franklin</p>
-            </div>
-            <div class="content">
-                <p class="colortitle">Exposition</p><br>
-                <p class="sum">Une éternité au havre</p><br>
-                <p class="text">Du 2 octobre au 8 novembre 2019 Maison de l'étudiant</p>
-            </div>
-            <div class="content">
-                <p class="colortitle">Salon</p><br>
-                <p class="sum">Journée nationale des aidants</p><br>
-                <p class="text">Du 4 au 9 octobre 2019 Espace coty</p>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Cérémonie / International / Tourisme</span></p>
+                <p class="title">Il y a 75 ans : La libération du Havre</p>
             </div>
         </div>
-        
-        <div class="fourthbox">
-            <div class="content">
-                <h1>Les + CONSULTÉS</h1>
-                <a href="assets/img/img03.jpg"><img src="assets/img/img03.jpg" alt="photo de route" title="photo de route" id="road"></a>
-                <p class="colortitle">Enquête</p><br>
-                <p class="subtitle">Ouverture de l'enquête publique - réglement local de publicité de la ville du havre</p><br>
-                <p class="text">Du 3 septembre au 4 octobre 2019</p>
+
+        <div class="donotmiss">
+            <p class="category">A ne pas manquer</p>
+            <div class="highlight">
+                <div class="img-highlight">
+                    <img class="img-responsive" src="assets\img\img02.jpg" alt="Carré des Docks">
+                    <p><span class="sub-category">Sport</span></p>
+                </div>
+                <p class="title">Le Havre en Forme au carré des docks</p>
+                <p class="outline">Un après-midi pour s'adonner à des activités physiques et découvrir un lieu culturel
+                    atypique</p>
+                <p class="date">Le 5 octobre 2019 à 14:00<br>
+                    Carré des Docks - Le Havre Normandie</p>
             </div>
-            <div class="content">
-                <p class="colortitle">Nature</p><br>
-                <p class="sum">Verdisons le havre</p><br>
-                <p class="boldtext">jardine ma rue pour embellir la ville et favorise la biodiversité</p>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Réunion</span></p>
+                <p class="title">Les DYS' en question : Dyspraxie, Dyslexie, Dysorthographie ...</p>
+                <p class="outline">Les cafés de la Santé</p>
+                <p class="date">Le 1 octobre 2019 à 09:00<br>
+                    La Fabrique Pierre Harnet, centre social</p>
             </div>
-            <div class="content">
-                <p class="colortitle">Dossier</p><br>
-                <p class="boldtext">Budget 2019</p>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Conseil de Quartier</span></p>
+                <p class="title">Conseil de Quartier Centre Ancien</p>
+                <p class="date">Le 1 octobre 2019 à 18:30<br>
+                    Salle des fêtes Franklin</p>
             </div>
-           <div class="content">
-                <p class="colortitle">Appel à projets</p><br>
-                <p class="sum">Appel à projet politique de la ville 2020</p><br>
-                <p class="boldtext">du 20 septembre au 2 novembre 2019</p>
-           </div>
-            <div class="content">
-                <p class="colortitle">Pratique et démarches</p><br>
-                <p class="sum">La ville du havre recrute</p>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Exposition</span></p>
+                <p class="title">Une éternité au Havre</p>
+                <p class="date">Du 2 octobre au 8 novembre 2019<br>
+                    Maison de l'étudiant</p>
+            </div>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Salon</span></p>
+                <p class="title">Journée Nationale Des Aidants</p>
+                <p class="date">Du 4 au 9 octobre 2019<br>
+                    Espace Coty</p>
             </div>
         </div>
-      </div>
+
+        <div class="mostviewed">
+            <p class="category">Les + consultés</p>
+            <div class="highlight">
+                <div class="img-highlight">
+                    <img class="img-responsive" src="assets\img\img03.jpg" alt="Pancarte Ville">
+                    <p><span class="sub-category">Enquête</span></p>
+                </div>
+                <p class="title">Ouverture de l'enquète publique - Réglement local de publicité de la ville du havre</p>
+                <p class="date">Du 3 septembre au 4 octobre 2019</p>
+            </div>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Nature</span></p>
+                <p class="title">Verdissons le Havre !</p>
+                <p class="outline">Je jardine ma rue pour embellir ma ville et favoriser la biodiversité</p>
+            </div>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Dossier</span></p>
+                <p class="title">Budget 2019</p>
+            </div>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Appel à projet politique de la ville 2020</span></p>
+                <p class="title">Du 20 septembre au 2 novembre 2019</p>
+            </div>
+            <hr>
+            <div class="news">
+                <p><span class="sub-category">Pratique et Démarches</span></p>
+                <p class="title">La ville du havre recrute</p>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
